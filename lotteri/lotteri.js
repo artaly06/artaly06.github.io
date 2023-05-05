@@ -6,7 +6,12 @@ const vinster = [
     "StatTrak™ SCAR-20 | Grotto (Minimal Wear)",
     "StatTrak™ SCAR-20 | Grotto (Field-Tested)",
     "StatTrak™ SCAR-20 | Grotto (Well-Worn)",
-    ""
+    "StatTrak™ SCAR-20 | Grotto (Battle-Scarred)",
+    "SCAR-20 | Grotto (Factory New)",
+    "SCAR-20 | Grotto (Minimal Wear)",
+    "SCAR-20 | Grotto (Field-Tested)",
+    "SCAR-20 | Grotto (Well-Worn)",
+    "SCAR-20 | Grotto (Battle-Scarred)"
 
 
 ]
@@ -19,15 +24,19 @@ function SlumpaClick() {
     let antalv = antal_vinster.value
     let int_antalv = parseInt(antalv)
 
-    for (i=0; i>int_antalv; i++){
-        let slumptal = math.floor.random()  * 12
+    console.log(`click ${antal_vinster.value}`)
+
+    for (i=0; i<int_antalv; i++){
+        console.log(`i= ${i}`)
+        let slumptal = Math.floor(Math.random()  * 9)
 
         let t_vinst = vinster[slumptal]
 
         vinst += `<p> ${t_vinst} </p>`
     }
 
-    console.log(`click${antal_vinster.value})`)
+    svar_div.innerHTML = vinst
+    //console.log(`click${antal_vinster.value})`)
 
 
 }
