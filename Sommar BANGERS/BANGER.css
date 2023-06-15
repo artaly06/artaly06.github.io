@@ -1,0 +1,22 @@
+body {
+
+    background-image: url("https://media.tenor.com/lnx0awyUOM8AAAAC/hooja-skogsdisco.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.scroller {
+    height: 1000px;
+    overflow-y: scroll;
+    scroll-snap-type-y: mandatory;
+}
+
+img{
+        width: 550px;
+}
+
+div{
+
+    margin-left: 33%;
+}
