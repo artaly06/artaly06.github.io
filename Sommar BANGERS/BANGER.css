@@ -6,6 +6,7 @@ body {
     background-position: center;
 }
 
+
 .scroller {
     height: 1000px;
     overflow-y: scroll;
@@ -20,3 +21,6 @@ div{
 
     margin-left: 33%;
 }
+ h2 {
+    color: black;
+ }
