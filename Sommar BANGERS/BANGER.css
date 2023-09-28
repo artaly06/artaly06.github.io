@@ -10,7 +10,7 @@ body {
 .scroller {
     height: 1000px;
     overflow-y: scroll;
-    scroll-snap-type-y: mandatory;
+    scroll-snap-type: mandatory;
 }
 
 img{

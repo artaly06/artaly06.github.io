@@ -1,6 +1,4 @@
-function myFunction(){
-
-   
+function myFunction() {
 
     let spelare = document.getElementById("spelare")
 
